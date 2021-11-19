@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,20 +10,25 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+
     <header class="site-header inicio">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="/">
-                    <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
-                </a>
-
-                <div class="mobile-menu">
-                    <a href="#navegacion">
-                        <img src="img/barras.svg" alt="Icono Menu">
+                <div class="barra-movil">
+                    <a href="/">
+                        <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
                     </a>
+    
+                    <div class="mobile-menu">
+                        <label for="menu-hamburguesa">
+                            <img class="hamburguer" src="img/barras.svg" alt="Icono Menu">
+                        </label>
+                    </div>
                 </div>
+                
+                <input type="checkbox" id="menu-hamburguesa">
 
                 <nav id="navegacion" class="navegacion">
                     <a href="pages/nosotros.html">Nosotros</a>
@@ -33,7 +39,7 @@
             </div>
             <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
         </div> <!-- contenedor -->
-    </header>  
+    </header>
 
     <section class="contenedor seccion">
         <h2 class="fw-300 centrar-texto">Más Sobre Nosotros</h2>
@@ -41,22 +47,22 @@
             <div class="icono">
                 <img src="img/icono1.svg" alt="Icono seguridad">
                 <h3>Seguridad</h3>
-                <p>Quasi magni quia mollitia odit officia enim tempora tempore velit debitis iusto, 
-                doloribus aliquid recusandae voluptatem. Animi necessitatibus veniam maxime hic.</p>
+                <p>Quasi magni quia mollitia odit officia enim tempora tempore velit debitis iusto,
+                    doloribus aliquid recusandae voluptatem. Animi necessitatibus veniam maxime hic.</p>
             </div>
 
             <div class="icono">
                 <img src="img/icono2.svg" alt="Icono mejor precio">
                 <h3>El mejor precio</h3>
-                <p>Quasi magni quia mollitia odit officia enim tempora tempore velit debitis iusto, 
-                doloribus aliquid recusandae voluptatem. Animi necessitatibus veniam maxime hic.</p>
+                <p>Quasi magni quia mollitia odit officia enim tempora tempore velit debitis iusto,
+                    doloribus aliquid recusandae voluptatem. Animi necessitatibus veniam maxime hic.</p>
             </div>
 
             <div class="icono">
                 <img src="img/icono3.svg" alt="Icono a tiempo">
                 <h3>A tiempo</h3>
-                <p>Quasi magni quia mollitia odit officia enim tempora tempore velit debitis iusto, 
-                doloribus aliquid recusandae voluptatem. Animi necessitatibus veniam maxime hic.</p>
+                <p>Quasi magni quia mollitia odit officia enim tempora tempore velit debitis iusto,
+                    doloribus aliquid recusandae voluptatem. Animi necessitatibus veniam maxime hic.</p>
             </div>
         </div>
     </section>
@@ -84,7 +90,7 @@
                             <img src="img/icono_dormitorio.svg" alt="icono habitaciones">
                             <p>4</p>
                         </li>
-                    </ul>                
+                    </ul>
                     <a href="pages/anuncio.html" class=" boton boton-amarillo d-block">Ver propiedad</a>
                 </div>
             </div>
@@ -107,7 +113,7 @@
                             <img src="img/icono_dormitorio.svg" alt="icono habitaciones">
                             <p>4</p>
                         </li>
-                    </ul>  
+                    </ul>
                     <a href="pages/anuncio.html" class=" boton boton-amarillo d-block">Ver propiedad</a>
                 </div>
             </div>
@@ -130,7 +136,7 @@
                             <img src="img/icono_dormitorio.svg" alt="icono habitaciones">
                             <p>4</p>
                         </li>
-                    </ul>      
+                    </ul>
                     <a href="pages/anuncio.html" class=" boton boton-amarillo d-block">Ver propiedad</a>
                 </div>
             </div>
@@ -161,8 +167,8 @@
                         <h4>Terraza en el techo de tu casa</h4>
                     </a>
                     <p>Escrito el: <span>20/10/2019</span> por: <span>Admin</span></p>
-                    <p>Consejos para construir una terraza en el techo de tu casa, con los mejores 
-                    materiales y ahorrando dinero</p>
+                    <p>Consejos para construir una terraza en el techo de tu casa, con los mejores
+                        materiales y ahorrando dinero</p>
                 </div>
             </article>
 
@@ -175,8 +181,8 @@
                         <h4>Guía para la decoración de tu hogar</h4>
                     </a>
                     <p>Escrito el: <span>20/10/2019</span> por: <span>Admin</span></p>
-                    <p>Maximiza el  espacio en tu hogar con esta guía, aprende  a combinar muebles y 
-                    colorespara darle vida a tu espacio</p>
+                    <p>Maximiza el espacio en tu hogar con esta guía, aprende a combinar muebles y
+                        colorespara darle vida a tu espacio</p>
                 </div>
             </article>
         </section>
@@ -185,7 +191,7 @@
             <h3 class="centrar-texto fw-300">Testimoniales</h3>
             <div class="testimonial">
                 <blockquote>
-                    El personal se comportó  de una excelente forma, muy buena atención y la casa que me ofrecieron
+                    El personal se comportó de una excelente forma, muy buena atención y la casa que me ofrecieron
                     cumple con todas mis expectativas.
                 </blockquote>
                 <p>- Eduardo Corgniali</p>
@@ -203,6 +209,7 @@
             </nav>
             <p class="copyright">Todos los derechos reservados &copy; </p>
         </div>
-    </footer>    
+    </footer>
 </body>
+
 </html>

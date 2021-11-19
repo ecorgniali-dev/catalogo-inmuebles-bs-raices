@@ -112,14 +112,20 @@ h4 {
     max-width: 60rem;
     line-height: 2;
 }
-.barra{
-    padding-top: 3rem;
+.barra {
+    padding-top: 1rem;
+}
+.barra-movil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 @media (min-width: 768px) {
     .barra{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-top: 3rem;
     }
 }
 
@@ -153,12 +159,17 @@ h4 {
         display: none;
     }
 }
-.navegacion:target{
-    display: block;
-}
 .navegacion{
     display: none;
+} 
+#menu-hamburguesa{
+    display: none;
 }
+#menu-hamburguesa:checked ~ .navegacion{
+    display: flex;
+    flex-direction: column;
+}
+
 @media (min-width: 768px) {
     .navegacion{
         display: block;
@@ -323,7 +334,7 @@ h4 {
 }
 .testimonial blockquote {
     position: relative;
-    padding-left: 5rem;
+    padding-left: 3rem;
     font-weight: 300;
 }
 /** Footer **/
